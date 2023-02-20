@@ -1,15 +1,9 @@
-import { useState } from "react";
-
-import "./App.css";
-import * as ProIcons from "@procol-tech/pro-icons";
+import IconsPage from "./components/iconsPage";
 
 function App() {
-  console.log({ ProIcons });
   return (
-    <div className="App">
-      {Object.values(ProIcons).map((Icon) => (
-        <Icon />
-      ))}
+    <div className="container">
+      <IconsPage />;
     </div>
   );
 }
