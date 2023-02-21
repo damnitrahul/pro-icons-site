@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./iconsPage.module.scss";
 import * as ProIcons from "@procol-tech/pro-icons";
 import Icon from "../icon";

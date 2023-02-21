@@ -1,5 +1,4 @@
 import { renderToString, renderToStaticMarkup } from "react-dom/server";
-import React from "react";
 import styles from "./icon.module.scss";
 
 function Icon({ icon: IconComponent, name }) {
